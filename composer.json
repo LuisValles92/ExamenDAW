@@ -1,0 +1,6 @@
+{
+    "require": {
+        "ballen/distical": "^2.0",
+        "viva-yasu/int2eng": "^1.0"
+    }
+}

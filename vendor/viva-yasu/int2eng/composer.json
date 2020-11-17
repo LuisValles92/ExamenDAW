@@ -1,0 +1,22 @@
+{
+  "name": "viva-yasu/int2eng",
+  "description": "This library is to convert Integer to English",
+  "keywords": ["convert", "integer", "English", "written in English"],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/viva-yasu/int2eng-php",
+  "authors": [
+    {
+      "name": "viva-yasu",
+      "email": "kyasunari123v@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "VivaYasu\\Int2Eng": "src/"
+    }
+  }
+}

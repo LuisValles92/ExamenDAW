@@ -1,0 +1,115 @@
+{
+    "packages": [
+        {
+            "name": "ballen/distical",
+            "version": "2.0.7",
+            "version_normalized": "2.0.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/allebb/distical.git",
+                "reference": "b9383462e68fa0ce6f2be4a51ba8777545e82fe5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/allebb/distical/zipball/b9383462e68fa0ce6f2be4a51ba8777545e82fe5",
+                "reference": "b9383462e68fa0ce6f2be4a51ba8777545e82fe5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.8.*"
+            },
+            "time": "2020-02-12T19:03:38+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Ballen\\Distical\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ballen",
+                    "email": "ballen@bobbyallen.me",
+                    "homepage": "http://bobbyallen.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A distance (Lat/Long) calculation library for PHP",
+            "homepage": "http://github.com/bobsta63/distical",
+            "keywords": [
+                "calculator",
+                "distance",
+                "gps",
+                "lat",
+                "latitude",
+                "lng",
+                "long",
+                "longditude",
+                "mapping"
+            ],
+            "support": {
+                "issues": "https://github.com/allebb/distical/issues",
+                "source": "https://github.com/allebb/distical/tree/master"
+            },
+            "install-path": "../ballen/distical"
+        },
+        {
+            "name": "viva-yasu/int2eng",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/viva-yasu/int2eng-php.git",
+                "reference": "351a8be3f6413236af1f838139f94630a98166d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/viva-yasu/int2eng-php/zipball/351a8be3f6413236af1f838139f94630a98166d9",
+                "reference": "351a8be3f6413236af1f838139f94630a98166d9",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "time": "2016-02-04T13:25:28+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "VivaYasu\\Int2Eng": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "viva-yasu",
+                    "email": "kyasunari123v@gmail.com"
+                }
+            ],
+            "description": "This library is to convert Integer to English",
+            "homepage": "https://github.com/viva-yasu/int2eng-php",
+            "keywords": [
+                "convert",
+                "english",
+                "integer",
+                "written in English"
+            ],
+            "support": {
+                "issues": "https://github.com/viva-yasu/int2eng-php/issues",
+                "source": "https://github.com/viva-yasu/int2eng-php/tree/master"
+            },
+            "install-path": "../viva-yasu/int2eng"
+        }
+    ],
+    "dev": true
+}

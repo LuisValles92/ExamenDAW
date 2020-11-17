@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family: "Ribeye Marrow";
+    src: url("fonts/ribeye_marrow.woff")
+  }
+  #formula{
+      background-color: black;
+      color:white;
+      font-size: 18px;
+  }
+  
+#imagen{
+    position: absolute;
+    top:10%;
+    right: 10%;
+}
+#logo{
+    float: left;
+}
+h3{
+    display:inline;
+}
+#imagen_formula{
+    position: absolute;
+    top:20%;
+    right: 20%;
+    width: 25%;
+    height: 25%;
+}
+h3 {
+    font-family: 'Ribeye Marrow', cursive;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  #imagen_formula_harris{
+    position: absolute;
+    top:20%;
+    right: 5%;
+    width: 45%;
+    height: 45%;
+}
+aside
+{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    width: 180px;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
