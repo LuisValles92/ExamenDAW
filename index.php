@@ -117,10 +117,10 @@ try {
     </html>';
 
     if (isset($_REQUEST['calcular'])) {
-        $punto1_latitud = $_REQUEST['punto1_latitud'];
-        $punto1_longitud = $_REQUEST['punto1_longitud'];
-        $punto2_latitud = $_REQUEST['punto2_latitud'];
-        $punto2_longitud = $_REQUEST['punto2_longitud'];
+        $punto1_latitud = htmlspecialchars($_REQUEST['punto1_latitud']);
+        $punto1_longitud = htmlspecialchars($_REQUEST['punto1_longitud']);
+        $punto2_latitud = htmlspecialchars($_REQUEST['punto2_latitud']);
+        $punto2_longitud = htmlspecialchars($_REQUEST['punto2_longitud']);
         if (is_numeric($punto1_latitud) && is_numeric($punto1_longitud) && is_numeric($punto2_latitud) && is_numeric($punto2_longitud)) {
 
             $punto1 = new LatLong($punto1_latitud, $punto1_longitud);
